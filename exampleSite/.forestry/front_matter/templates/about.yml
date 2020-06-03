@@ -1,0 +1,20 @@
+---
+label: About
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: field_group
+  name: sitemap
+  label: sitemap
+  fields:
+  - type: number
+    name: priority
+    label: priority
+- type: list
+  name: outputs
+  label: outputs
